@@ -183,7 +183,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  body.checkout-page .header-wrap .nav-wrap, body.native-mobile-editor .header-wrap .nav-wrap { position: absolute !important; }
  body.checkout-page.nav-open .wrapper .header-wrap .nav-wrap, body.native-mobile-editor.nav-open .wrapper .header-wrap .nav-wrap { left: 0; }
  .wrapper { min-height: initial; }
- .container { width: 100%; padding: 0 1.5em; box-sizing: border-box; }
+ .container { width: 100%; padding: 0 1.5em; box-sizing: border-box; margin-top:50px;}
  body.nav-open .wrapper { right: 70%; }
  body.nav-open .wrapper .header-wrap .nav-wrap { left: -70%; }
  body.nav-open #footer-wrap { right: 70%; }
