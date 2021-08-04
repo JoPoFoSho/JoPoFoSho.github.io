@@ -40,9 +40,9 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .header-wrap #logo #title { display: block; max-width: 400px; }
  .header-wrap #logo img { max-height: 40px; }
  .header-wrap .logo { padding: 300px 0 20px; }
- .header-wrap .nav-wrap { position: relative; z-index: 6; width: 100%; background: rgba(255,255,255,0.95); border-bottom: 1px solid solid rgba(116,116,116,0.15); text-align: center; }
+ .header-wrap .nav-wrap { position: relative; z-index: 6; width: 100%; background: rgba(255,255,255,0.95); border-bottom: 1px solid solid #cccccc; text-align: center; }
  .header-wrap label.hamburger { display: none; }
- .menu { font-size: 12px; text-transform: uppercase; font-weight: 700; border-top: 1px solid rgba(116,116,116,0.15); }
+ .menu { font-size: 12px; text-transform: uppercase; font-weight: 700; border-top: 1px solid  #cccccc; }
  .menu ul { list-style: none; }
  .menu li { display: inline-block; padding: 7px 0; margin-right: 40px; }
  .menu a { color: #3b3b3b; }
