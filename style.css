@@ -233,7 +233,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .com-category-product-name { font-size: 1em; }
  }
  @media screen and (max-width: 767px) {
- body { font-size: 14px; }
+ /* body { font-size: 14px; } */
  h2 { font-size: 1.3em; line-height: 1.5em; }
  div.paragraph, div.paragraph { padding: 0 0 1.5em; line-height: 1.7em; }
  p, div.paragraph { padding: 0 0 1.5em; line-height: 1.7em; }
