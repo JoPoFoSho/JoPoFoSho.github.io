@@ -318,11 +318,17 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .fancybox-close:before, .fancybox-next span:before, .fancybox-prev span:before { font-size: 40px; position: absolute; top: 49%; }
  }
  @media screen and (max-width: 480px) {
-p.teachingSubtitle {margin-bottom:-40px;}
-.teachingAsterix {line-height: 1.1em;}
+ p.teachingSubtitle {margin-bottom:-40px;}
+ .teachingAsterix {line-height: 1.1em;}
+ 
  #com-store .com-category-subcategory-group .com-column, #com-store .com-category-product-featured-group .com-column, #com-store .com-category-product-group .com-column { float: none; width: 100% !important; }
  }
-
+ @media screen and (max-width: 414px) {
+    p.teachingSubtitle {margin-bottom:-40px;}
+    .teachingAsterix {line-height: 1.1em;}
+    table.teachingTable {font-size: 10px;} 
+    #com-store .com-category-subcategory-group .com-column, #com-store .com-category-product-featured-group .com-column, #com-store .com-category-product-group .com-column { float: none; width: 100% !important; }
+    }
 div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
